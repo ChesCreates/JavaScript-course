@@ -1,5 +1,5 @@
-function sayHi(name) {
-  console.log('Hi! ' + name);
+function multiply(num1, num2) {
+  const product = num1 * num2;
 }
 
-sayHi('Chesney');
+console.log(multiply(2, 2))
