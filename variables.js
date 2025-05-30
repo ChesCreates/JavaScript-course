@@ -1,5 +1,5 @@
-let productColors = ['blue', 'green'];
+function sayHi(name) {
+  console.log('Hi! ' + name);
+}
 
-productColors[0] = 42;
-
-console.log(productColors.length);
+sayHi('Chesney');
