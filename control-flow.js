@@ -1,6 +1,7 @@
-let num1 = 14;
-let num2 = 10;
+/* let age = 15;
+const canDrive = age >= 16 ? true : false;
+console.log(canDrive); */
 
-const isNum1Greater = num1 > num2;
-
-console.log( isNum1Greater);
+let points = 110;
+const customerType = points > 100 ? 'gold' : 'silver';
+console.log(customerType);

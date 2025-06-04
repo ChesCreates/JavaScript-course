@@ -10,10 +10,16 @@
 /* comparisonOperators -> '>', '>=', '<', '<=' 
   using these results in a boolean value - true or false
 */
+/* equality operators:
+  loose equality '==' -> converts to the same data type
+  strict equality '===' -> returns true only if values are equal
+  and the same data type
+*/
+/* ternary operator -> '?'
 
-let num1 = 14;
-let num2 = 10;
+/* loose equality performance
+    '2'== 2 // true
+    0 == false // true
+    null == undefined // true
+*/
 
-const isNum1Greater = num1 > num2;
-
-console.log( isNum1Greater);
